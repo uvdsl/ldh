@@ -1,4 +1,4 @@
-# LDH - Linked Data Hasher
+# LDH - Linked Data Hasher 
 This is just a quick and dirty RESTful-Server to hash Linked Data.
 Currently, it only talkes [turtle](https://www.w3.org/TR/turtle/).
 The hasher is available at '/hasher'.
@@ -25,3 +25,7 @@ When you get a 4XX error, you may have forgotten the baseURI-header or your turt
 
 ## Response: 5XX - Server Error
 Unlikely, but nonetheless: If the server goes wild while hashing, a 500 Internal Server Error is given back. You can see what went wrong in the message body.
+
+##
+
+![Publish Docker image to GitHub Package Registry (GPR)](https://github.com/uvdsl/ldh/workflows/Publish%20Docker%20image%20to%20GitHub%20Package%20Registry%20(GPR)/badge.svg)
